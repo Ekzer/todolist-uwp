@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Authentication</name>
+    </assembly>
+    <members>
+        <member name="M:Todolist.Authentication.IAuth.GetAuthToken">
+            <summary>
+                Gets a valid authentication token for the selected Authentication provider
+            </summary>
+            <remarks>
+                Used by the API request generators before making calls to the OneNote APIs.
+            </remarks>
+            <returns>valid authentication token</returns>
+        </member>
+        <member name="T:Todolist.Authentication.O365Auth">
+            <summary>
+            This class contains all Authentication related code for interacting with the OneNote APIs over O365
+            </summary>
+        </member>
+        <member name="M:Todolist.Authentication.O365Auth.GetAuthToken">
+            <summary>
+            Gets a valid authentication token. Also refreshes the access token if it has expired.
+            </summary>
+            <remarks>
+            Used by the API request generators before making calls to the OneNote APIs.
+            </remarks>
+            <returns>valid authentication token</returns>
+        </member>
+        <member name="M:Todolist.Authentication.O365Auth.GetAuthenticationResult">
+            <summary>
+            Gets a valid authentication token. Also refreshes the access token if it has expired.
+            </summary>
+            <remarks>
+            Used by the API request generators before making calls to the OneNote APIs.
+            </remarks>
+            <returns>valid authentication token</returns>
+        </member>
+        <member name="M:Todolist.Authentication.O365Auth.RefreshAuthTokenIfNeeded(System.Double)">
+            <summary>
+             Refreshes the live authentication access token if it is about to expire in next  5 minutes
+            </summary>
+        </member>
+        <member name="M:Todolist.Authentication.O365Auth.AttemptAccessTokenRefresh">
+            <summary>
+            This method tries to refresh the access token. The token needs to be
+            efreshed continuously, so that the user is not prompted to sign in again
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

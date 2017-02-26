@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Utils</name>
+    </assembly>
+    <members>
+        <member name="M:Todolist.Utils.GetDate">
+            <summary>
+            Get date in ISO8601 format with local timezone offset
+            </summary>
+            <returns>Date as ISO8601 string</returns>
+        </member>
+    </members>
+</doc>

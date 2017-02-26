@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>OneNoteAPI</name>
+    </assembly>
+    <members>
+        <member name="M:Todolist.API.OneNote.CreateNote(System.String)">
+            <summary>
+            Get meta data for ALL pages under ALL of the user's notebooks/sections
+            </summary>
+            <returns>The Url Content</returns>
+        </member>
+    </members>
+</doc>

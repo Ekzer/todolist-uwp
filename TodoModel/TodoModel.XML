@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TodoModel</name>
+    </assembly>
+    <members>
+        <member name="T:Todolist.DataModel.ToDo">
+            <summary>
+            Todo's object.
+            </summary>
+        </member>
+        <member name="T:Todolist.DataModel.Tasklist">
+            <summary>
+            
+            </summary>
+        </member>
+    </members>
+</doc>
